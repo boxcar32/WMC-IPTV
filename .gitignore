@@ -1,0 +1,35 @@
+﻿# WMC IPTV - files that should not be published
+
+# Generated channel/source data
+sources.json
+wmc_channels.json
+epg123_channel_matches.json
+HDHRProxyIPTV_MappingList.ini
+
+# User playlists / provider data
+*.m3u
+*.m3u8
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.old
+
+# Development backups
+*BACKUP*
+*_BEFORE_*
+Backup/
+Backups/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Build artifacts
+Installer/
+dist/
+build/
+
+# Local GitHub release installer
+*.exe
