@@ -42,6 +42,29 @@ From Windows Media Center's perspective, IPTV channels are presented as televisi
 
 ---
 
+## ✨ Features
+
+WMC IPTV is built to preserve the native Windows Media Center television experience while adding support for modern IPTV sources.
+
+- 📺 **Native WMC Live TV** — IPTV channels appear and operate like normal television channels inside Windows Media Center.
+- 📋 **Native WMC Guide** — Browse channels and program listings using the familiar Windows Media Center Guide.
+- ⏺ **WMC Recording** — Use Windows Media Center's normal recording and scheduled-recording features.
+- 🎮 **Remote Control Support** — Change channels, browse the Guide, and control Live TV with a standard WMC remote.
+- 📡 **8 Virtual Tuners** — Multiple virtual HDHomeRun tuners allow WMC to manage simultaneous television sessions.
+- 📖 **EPG123 Integration** — Match IPTV channels with program-guide listings for the native WMC Guide.
+- 🌐 **Multiple IPTV Sources** — Combine compatible YouTube TV, Frndly TV, Pluto TV, HTTP/HLS, local streams, webcams, and other M3U sources into one WMC lineup.
+- 🔢 **Unified Channel Lineup** — The current US Version provides 157 channels numbered 100–256.
+- 🖥️ **Windows 11 Tested** — Developed and tested with GaRyan2 Windows Media Center on Windows 11.
+- 🛠️ **Automated Installer** — WMC IPTV Setup automates the components and configuration needed to build the IPTV-to-WMC bridge.
+
+### One Interface. Multiple Sources.
+
+Instead of switching between separate streaming applications, WMC IPTV brings compatible live-TV sources together inside the classic Windows Media Center interface:
+
+**Live TV • Guide • Recording • Remote Control • Multiple Tuners**
+
+---
+
 ## 🚀 Quick Start
 
 ### 1. Download
