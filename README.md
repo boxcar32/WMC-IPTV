@@ -9,7 +9,19 @@
 Created and developed by **Boxcar32**.
 
 ---
+## 📥 Download WMC IPTV – US Version
 
+The WMC IPTV US installer provides the complete setup for integrating IPTV channels into Windows Media Center.
+
+### Current US Build
+
+**157 Channels | Channels 100–256 | 8 Virtual Tuners | EPG123**
+
+> 🚧 **Installer release coming soon.**
+
+The installer and release notes will be available from the **GitHub Releases** section of this repository.
+
+---
 ## 🇺🇸 US Version
 
 The US configuration has been designed and tested with a **157-channel Windows Media Center lineup**.
