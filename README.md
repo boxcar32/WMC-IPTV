@@ -1,5 +1,7 @@
 # 🇺🇸 WMC IPTV – US Version
 
+![WMC IPTV US Version](combined.jpg)
+
 ## Modern IPTV for Windows Media Center
 
 **WMC IPTV** brings modern IPTV and live-TV sources directly into the native Windows Media Center Live TV experience using virtual HDHomeRun tuners.
