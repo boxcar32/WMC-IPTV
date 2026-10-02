@@ -11,15 +11,19 @@ Created and developed by **Boxcar32**.
 ---
 ## 📥 Download WMC IPTV – US Version
 
-The WMC IPTV US installer provides the complete setup for integrating IPTV channels into Windows Media Center.
+The **WMC IPTV – US Version 1.0** installer is now available.
 
 ### Current US Build
 
 **157 Channels | Channels 100–256 | 8 Virtual Tuners | EPG123**
 
-> 🚧 **Installer release coming soon.**
+### ⬇️ Download
 
-The installer and release notes will be available from the **GitHub Releases** section of this repository.
+[**Download WMC IPTV – US Version 1.0**](https://github.com/boxcar32/WMC-IPTV/releases/tag/v1.0.0-us)
+
+The release includes the **WMC IPTV Setup.exe** installer and release notes.
+
+---
 
 ---
 ## 🇺🇸 US Version
