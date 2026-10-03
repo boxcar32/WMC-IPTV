@@ -18,7 +18,7 @@ The **WMC IPTV – US Version 1.0** installer is now available.
 
 ### ⬇️ Download
 
-[**Download WMC IPTV – Version 1.0**](https://github.com/boxcar32/WMC-IPTV/releases/tag/v1.0.0-us)
+[**Download WMC IPTV – US Version 1.0**](https://github.com/boxcar32/WMC-IPTV/releases/tag/v1.0.0)
 
 The release includes **WMC IPTV Setup.exe** and release notes.
 
