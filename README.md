@@ -116,23 +116,23 @@ Follow the installer prompts.
 
 The installer configures the WMC IPTV components, virtual HDHomeRun tuner system, CC4C, and universal IPTV bridge.
 
-### 4. Provide Your M3U
+### 4. YouTube TV Sign-In
+
+If you use YouTube TV, WMC IPTV provides a first-time sign-in process for CC4C.
+
+Sign in using your own Google/YouTube TV account.
+
+CC4C uses a persistent Chrome profile so the authenticated session can remain available after reboot.
+
+You normally do not need to sign in again every time Windows starts. A new sign-in may be required if Google or YouTube TV expires the session or requests authentication again.
+
+### 5. Provide Your M3U
 
 Select your compatible M3U playlist when requested.
 
 The playlist contains the live-TV sources you are authorized to access.
 
-WMC IPTV builds the channel mappings and presents the channels through the virtual tuner system.
-
-### 5. YouTube TV Sign-In
-
-If your lineup contains YouTube TV channels, sign in when the YouTube TV authentication window is presented.
-
-Use your own Google/YouTube TV account.
-
-CC4C uses a persistent Chrome profile so the authenticated session can remain available after reboot.
-
-You normally do not need to sign in again every time Windows starts. A new sign-in may be required if Google or YouTube TV expires the session or otherwise requests authentication again.
+WMC IPTV then builds the channel mappings and presents the channels through the virtual tuner system.
 
 ### 6. Configure Windows Media Center with EPG123
 
