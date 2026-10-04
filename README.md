@@ -89,9 +89,9 @@ Instead of switching between separate streaming applications, WMC IPTV brings co
 
 ---
 
-## 🚀 Quick Start
+# 🚀 Quick Start
 
-### 1. Prerequisites
+## 1. Prerequisites
 
 Before installing WMC IPTV, install and configure:
 
@@ -102,11 +102,17 @@ Before installing WMC IPTV, install and configure:
 
 Subscription services such as YouTube TV require your own valid account and subscription.
 
-### 2. Download
+---
+
+## 2. Download
 
 Download **WMC IPTV – US Version 1.1** from the Releases section.
 
-### 3. Install
+[**Download WMC IPTV – US Version 1.1**](https://github.com/boxcar32/WMC-IPTV/releases/tag/v1.1.0)
+
+---
+
+## 3. Install WMC IPTV
 
 Run:
 
@@ -114,31 +120,27 @@ Run:
 
 Follow the installer prompts.
 
-The installer configures the WMC IPTV components, virtual HDHomeRun tuner system, CC4C, and universal IPTV bridge.
+WMC IPTV installs and configures the components required for the IPTV-to-Windows Media Center system, including:
 
-### 4. YouTube TV Sign-In
+- HDHRProxyIPTV
+- Virtual HDHomeRun tuners
+- Universal IPTV bridge
+- CC4C components
+- WMC channel utilities
+- EPG123 guide-matching components
+- WMC IPTV system tray components
 
-If you use YouTube TV, WMC IPTV provides a first-time sign-in process for CC4C.
+During the installation process, WMC IPTV will guide you through the remaining setup.
 
-Sign in using your own Google/YouTube TV account.
+---
 
-CC4C uses a persistent Chrome profile so the authenticated session can remain available after reboot.
+## 4. Configure Windows Media Center with EPG123
 
-You normally do not need to sign in again every time Windows starts. A new sign-in may be required if Google or YouTube TV expires the session or requests authentication again.
+After installing WMC IPTV, run **EPG123 Client Setup** when instructed.
 
-### 5. Provide Your M3U
+**Use EPG123 Client Setup as the Windows Media Center television setup method.**
 
-Select your compatible M3U playlist when requested.
-
-The playlist contains the live-TV sources you are authorized to access.
-
-WMC IPTV then builds the channel mappings and presents the channels through the virtual tuner system.
-
-### 6. Configure Windows Media Center with EPG123
-
-**Use EPG123 Client Setup as the WMC television setup method.**
-
-Do not perform a separate standalone WMC TV Signal Setup before this process.
+Do **not** perform a separate standalone Windows Media Center TV Signal Setup before this process.
 
 EPG123 Client Setup configures Windows Media Center for the virtual HDHomeRun/ClearQAM tuner environment.
 
@@ -146,15 +148,71 @@ WMC IPTV provides:
 
 **8 virtual HDHomeRun tuners**
 
-Complete the EPG123 Client Setup process and the required Windows Media Center television configuration.
+During the EPG123/WMC television setup:
 
-If a ClearQAM channel scan begins during setup, stop/cancel the scan at the beginning when the setup process allows it, then complete the remaining setup.
+- Select **Cable**
+- Use the **ClearQAM** tuner configuration
+- Allow Windows Media Center to detect the virtual HDHomeRun tuners
+- When the channel scan begins, stop/cancel the scan at the beginning when the setup process allows it
+- Complete the remaining Windows Media Center setup
+- Complete EPG123 Client Setup
 
-### 7. Install the IPTV Channels
+After EPG123 Client Setup is complete, return to the WMC IPTV installation window and continue.
 
-After the WMC/EPG123 television environment is configured, allow WMC IPTV to add the IPTV channels to Windows Media Center.
+---
 
-The current US configuration uses:
+## 5. YouTube TV Sign-In
+
+If you use **YouTube TV**, WMC IPTV provides a first-time sign-in process for CC4C.
+
+A Chrome window will be available for the CC4C YouTube TV profile.
+
+Sign in using your own Google/YouTube TV account.
+
+Verify that YouTube TV opens correctly using that profile.
+
+CC4C uses a persistent Chrome profile so the authenticated session can remain available after Windows restarts.
+
+You normally do **not** need to sign in again every time Windows starts.
+
+A new sign-in may be required if Google or YouTube TV:
+
+- Expires the session
+- Signs the account out
+- Requires account verification
+- Requires authentication again
+
+The authentication session is maintained by the Chrome profile.
+
+**WMC IPTV does not store your Google username or password.**
+
+---
+
+## 6. Provide Your M3U
+
+Select your compatible M3U playlist when requested.
+
+The playlist contains the live-TV sources you are authorized to access.
+
+WMC IPTV processes the playlist and builds the channel/source configuration used by the IPTV bridge and virtual tuner system.
+
+The playlist can contain supported sources such as:
+
+- YouTube TV
+- Frndly TV
+- Pluto TV
+- Local HDHomeRun streams
+- HTTP/HLS streams
+- Webcams
+- Other compatible live-TV sources
+
+---
+
+## 7. Install the IPTV Channels
+
+After the M3U is processed, WMC IPTV adds the IPTV channels to Windows Media Center.
+
+The current tested US configuration uses:
 
 **Channels 100–256**
 
@@ -162,28 +220,40 @@ for a total of:
 
 **157 channels**
 
-### 8. Configure the Program Guide
+The channels are presented to Windows Media Center through the virtual HDHomeRun/ClearQAM tuner system.
+
+---
+
+## 8. Configure the Program Guide
 
 Complete the EPG123 guide configuration.
 
 WMC IPTV matches compatible IPTV channels with EPG123 services and links those listings with the Windows Media Center Guide.
 
-### 9. Watch TV
+Version 1.1 supports the modern:
+
+`epg123.mxf`
+
+guide data format.
+
+After guide matching is complete, the IPTV channels can display program information directly inside the native Windows Media Center Guide.
+
+---
+
+## 9. Watch TV
 
 Open:
 
 **Windows Media Center → TV → Live TV**
 
-Your IPTV channels can now use the normal WMC television interface, including:
+Your IPTV channels can now use the normal Windows Media Center television interface, including:
 
 - Live TV
 - Program Guide
 - Channel changing
-- Remote control
+- MCE remote control
 - Recording
 - Scheduled recordings
-
-For additional instructions, see the installation/setup guide included with the release.
 
 ---
 
@@ -205,21 +275,28 @@ WMC IPTV can integrate user-supplied live-TV sources including:
 
 ## 📺 YouTube TV
 
-YouTube TV integration uses **CC4C** and a Chrome browser session.
+YouTube TV integration uses **CC4C** and a persistent Chrome browser profile.
 
 Version 1.1 includes the portable puppeteer-stream extension required by CC4C.
 
+This fixes the previous dependency on a developer-machine extension path and allows CC4C to operate on newly installed computers.
+
+### First-Time Setup
+
 On a new installation:
 
-1. WMC IPTV starts the YouTube TV sign-in process.
-2. Sign in using your own Google/YouTube TV account.
-3. Confirm that YouTube TV can play in the CC4C Chrome profile.
-4. Close the authentication browser when setup is complete.
-5. WMC IPTV can then use that persistent authenticated profile for YouTube TV channels.
+1. Complete the WMC/EPG123 television setup.
+2. Open the CC4C YouTube TV sign-in session when instructed.
+3. Sign in using your own Google/YouTube TV account.
+4. Verify that YouTube TV can play using the CC4C Chrome profile.
+5. Complete the sign-in process.
+6. Continue WMC IPTV setup and select your M3U.
 
-The authentication session is stored in the CC4C Chrome profile rather than inside WMC IPTV.
+After authentication, CC4C can use the persistent Chrome profile for YouTube TV playback.
 
-WMC IPTV does **not** store your Google username or password.
+The authentication session is stored in the Chrome profile rather than inside WMC IPTV.
+
+**WMC IPTV does not store your Google username or password.**
 
 ---
 
@@ -229,7 +306,7 @@ WMC IPTV does **not** store your Google username or password.
 IPTV / Live-TV Sources
          │
          ▼
-   Universal IPTV Bridge
+ Universal IPTV Bridge
          │
          ├── YouTube TV → CC4C → Chrome
          ├── Frndly TV
@@ -251,3 +328,190 @@ IPTV / Live-TV Sources
          ├── WMC Guide
          ├── Recording
          └── Remote Control
+```
+
+---
+
+## 📖 EPG123 Guide Integration
+
+EPG123 provides program-guide data for Windows Media Center.
+
+WMC IPTV can match IPTV channels against EPG123 services and link compatible channels with their guide listings.
+
+Version 1.1 supports the modern:
+
+`epg123.mxf`
+
+format as well as the WMC IPTV guide-matching workflow.
+
+### WMC Setup
+
+EPG123 Client Setup is also used to establish the Windows Media Center television environment required by WMC IPTV.
+
+This is the supported setup path for the WMC IPTV ClearQAM virtual tuners.
+
+A separate standalone WMC TV Signal Setup should not be performed before the EPG123 Client Setup workflow.
+
+---
+
+## 🔢 Channel Numbering
+
+The current US Version uses a sequential Windows Media Center channel lineup beginning at:
+
+**100**
+
+and ending at:
+
+**256**
+
+for the tested 157-channel configuration.
+
+The M3U playlist identifies the channels and source types.
+
+WMC IPTV then builds the corresponding virtual tuner/ClearQAM mappings.
+
+---
+
+## 📡 Virtual Tuners
+
+WMC IPTV currently provides:
+
+**8 virtual HDHomeRun tuners**
+
+through HDHRProxyIPTV.
+
+This allows Windows Media Center to treat the IPTV system similarly to a television tuner device.
+
+### Device IDs
+
+Each WMC IPTV computer should use a unique valid virtual HDHomeRun Device ID when multiple HDHomeRun or WMC IPTV systems are present on the same network.
+
+Version 1.1 improves automatic Device ID selection.
+
+The selected Device ID is also preserved during a WMC IPTV reinstall.
+
+This helps prevent Windows Media Center on one computer from accidentally connecting to another WMC IPTV proxy on the network.
+
+---
+
+## 🔄 Automatic Startup
+
+WMC IPTV automatically starts its required background components when Windows starts.
+
+These include:
+
+- CC4C when required
+- Universal IPTV bridge
+- Chrome window management
+- WMC IPTV system-tray status component
+
+The WMC IPTV system tray provides status and control for the IPTV environment.
+
+---
+
+## 🖥️ Windows 11
+
+WMC IPTV Version 1.1 has been tested on fresh Windows 11 installations.
+
+Testing has included:
+
+- Fresh WMC IPTV installation
+- Virtual tuner detection
+- EPG123 Client Setup
+- Automatic Device ID selection
+- CC4C portable extension loading
+- First-time YouTube TV authentication
+- Persistent YouTube TV login after reboot
+- YouTube TV playback through Windows Media Center
+- Reinstallation over an existing WMC IPTV installation
+
+---
+
+## 🛡️ Windows Smart App Control
+
+The WMC IPTV installer may be blocked by **Windows 11 Smart App Control** because the current installer is not digitally code-signed.
+
+A production distribution would normally use a trusted code-signing certificate.
+
+Users should make their own security decisions before running unsigned software.
+
+---
+
+## 🔧 Reinstalling WMC IPTV
+
+Version 1.1 includes improvements for reinstalling WMC IPTV over an existing installation.
+
+The installer handles running WMC IPTV components before replacing files.
+
+The existing virtual HDHomeRun Device ID can also be preserved during reinstall.
+
+This prevents a normal reinstall from unnecessarily changing the virtual tuner identity already configured on that computer.
+
+---
+
+## 🎮 Windows Media Center Remote Control
+
+Once the IPTV channels are installed as Windows Media Center television channels, normal WMC/MCE remote controls can be used.
+
+Typical controls include:
+
+- Channel Up / Down
+- Number buttons
+- Guide
+- Arrow keys
+- OK
+- Back
+- Play / Pause
+- Stop
+- Record
+- Skip / Replay
+- Volume
+- Mute
+- Green Button
+
+No special IPTV-specific remote-control software is required for normal Windows Media Center navigation.
+
+---
+
+## ⚠️ Important
+
+WMC IPTV is intended for use with television services and streams that the user is legally authorized to access.
+
+WMC IPTV does not:
+
+- Provide a YouTube TV subscription
+- Provide a Frndly TV subscription
+- Provide paid-TV credentials
+- Supply unauthorized television streams
+- Circumvent subscription requirements
+
+You are responsible for the services, playlists, streams, and accounts you configure.
+
+---
+
+## 📦 Current Version
+
+**WMC IPTV – US Version 1.1.0**
+
+Release tag:
+
+**v1.1.0**
+
+### Download
+
+[**WMC IPTV v1.1.0 Release**](https://github.com/boxcar32/WMC-IPTV/releases/tag/v1.1.0)
+
+Release assets include:
+
+- **WMC IPTV Setup.exe**
+- **WMC-IPTV-Source-v1.1.zip**
+
+---
+
+## 👤 Developer
+
+**Boxcar32**
+
+WMC IPTV was created to bring modern live-TV sources into the classic Windows Media Center television experience while preserving WMC's Guide, recording, tuner, and remote-control functionality.
+
+See the included documentation and **COPYRIGHT.txt** for copyright information and third-party acknowledgements.
