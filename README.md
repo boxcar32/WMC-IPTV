@@ -224,11 +224,13 @@ The channels are presented to Windows Media Center through the virtual HDHomeRun
 
 ---
 
-## 8. Configure the Program Guide
+## 8. Run Stage 2 – Configure the Program Guide
 
-Complete the EPG123 guide configuration.
+After the IPTV channels have been installed in Windows Media Center, run:
 
-WMC IPTV matches compatible IPTV channels with EPG123 services and links those listings with the Windows Media Center Guide.
+**WMC IPTV – Stage 2 Guide Setup**
+
+Stage 2 automatically matches the installed WMC IPTV channels with the corresponding EPG123 guide services and links them to the Windows Media Center Guide.
 
 Version 1.1 supports the modern:
 
@@ -236,7 +238,21 @@ Version 1.1 supports the modern:
 
 guide data format.
 
-After guide matching is complete, the IPTV channels can display program information directly inside the native Windows Media Center Guide.
+Stage 2 will:
+
+- Read the installed WMC IPTV channels
+- Read the EPG123 guide services
+- Match compatible channels with their EPG123 listings
+- Link the matched channels to the Windows Media Center Guide
+- Safely leave channels unchanged when no suitable match is found
+
+When Stage 2 reports:
+
+**STAGE 2 COMPLETE**
+
+the automatic WMC guide mapping has finished.
+
+Open Windows Media Center and check the Guide. Your matched IPTV channels should now display their EPG123 program listings.
 
 ---
 
