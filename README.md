@@ -524,6 +524,32 @@ Release assets include:
 
 ---
 
+## 🙏 Credits & Acknowledgements
+
+WMC IPTV builds on ideas, tools, and work from the Windows Media Center and home-theater community.
+
+Special thanks and acknowledgement to:
+
+- **GaRyan2** — creator of EPG123 and the WMC utilities used for Windows Media Center guide integration. WMC IPTV uses GaRyan2 WMC utility libraries for portions of its WMC/EPG integration.
+
+- **Kévin Chalet** — for his work and documentation involving HDHRProxyIPTV and integrating network/virtual tuners with Windows Media Center.
+
+- **Channels DVR** — acknowledgement for its work in modern live-TV streaming and DVR integration. Channels DVR is an independent project and is not affiliated with WMC IPTV.
+
+- **ADBTuner** — acknowledgement for its work bringing streaming television services into tuner/DVR environments using automated playback and virtual tuner concepts. ADBTuner is an independent project and is not affiliated with WMC IPTV.
+
+WMC IPTV also acknowledges the Windows Media Center, EPG123, HDHomeRun, IPTV, and home-theater communities whose work and documentation have helped keep Windows Media Center useful with modern television sources.
+
+### Independent Project
+
+WMC IPTV is an independent community project.
+
+It is not affiliated with, endorsed by, or sponsored by Microsoft, Google/YouTube TV, Frndly TV, Pluto TV, Channels DVR, ADBTuner, SiliconDust, or the other services and projects referenced in this documentation.
+
+All product names, trademarks, and registered trademarks are the property of their respective owners.
+
+---
+
 ## 👤 Developer
 
 **Boxcar32**
