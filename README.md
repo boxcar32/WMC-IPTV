@@ -557,3 +557,12 @@ All product names, trademarks, and registered trademarks are the property of the
 WMC IPTV was created to bring modern live-TV sources into the classic Windows Media Center television experience while preserving WMC's Guide, recording, tuner, and remote-control functionality.
 
 See the included documentation and **COPYRIGHT.txt** for copyright information and third-party acknowledgements.
+
+
+---
+
+## Disclaimer
+
+WMC IPTV is an independent third-party project and is not affiliated with, endorsed by, or sponsored by Microsoft.
+
+Windows, Windows Media Center, and related Microsoft product names are trademarks of Microsoft Corporation.
