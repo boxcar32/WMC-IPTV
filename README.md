@@ -561,6 +561,28 @@ See the included documentation and **COPYRIGHT.txt** for copyright information a
 
 ---
 
+## Digitally Signed Installer
+
+Official WMC IPTV releases are digitally signed using Microsoft Azure Artifact Signing.
+
+**Publisher:** Marvin Williams
+
+To verify an official installer in Windows:
+
+1. Right-click `WMC IPTV Setup.exe`
+2. Select **Properties**
+3. Open the **Digital Signatures** tab
+4. Select **Marvin Williams**
+5. Click **Details**
+
+Windows should report:
+
+**This digital signature is OK.**
+
+This helps verify that the installer came from the published source and has not been modified after signing.
+
+---
+
 ## Disclaimer
 
 WMC IPTV is an independent third-party project and is not affiliated with, endorsed by, or sponsored by Microsoft.
