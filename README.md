@@ -22,6 +22,25 @@ The **WMC IPTV – US Version 1.1** installer is now available.
 
 The release includes **WMC IPTV Setup.exe**, the **v1.1 source package**, and release notes.
 
+## 💻 Download WMC IPTV – Universal Client
+
+The **WMC IPTV Universal Client v1.0** installer is now available.
+
+Install Windows Media Center on a separate computer and connect to your existing WMC IPTV server.
+
+**Features:**
+- Connects to a remote WMC IPTV server over your local network.
+- Supports 8 virtual HDHomeRun tuners.
+- Imports channels using your M3U playlist and matching server INI file.
+- Configures the Windows Firewall for IPTV video playback.
+- No Chrome Capture, Python bridge, or HDHRProxyIPTV server installation required on the client.
+
+### ⬇️ Download
+
+[Download WMC IPTV Universal Client v1.0](https://github.com/boxcar32/WMC-IPTV/releases/tag/client-v1.0)
+
+**Requirements:** Windows Media Center, a running WMC IPTV server, and matching M3U and HDHRProxyIPTV mapping files.
+
 ---
 
 ## 🆕 Version 1.1
