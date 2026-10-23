@@ -37,7 +37,7 @@ Install Windows Media Center on a separate computer and connect to your existing
 
 ### ⬇️ Download
 
-[Download WMC IPTV Universal Client v1.0](https://github.com/boxcar32/WMC-IPTV/releases/tag/client-v1.0)
+[Download WMC IPTV Universal Client v1.0](https://github.com/boxcar32/WMC-IPTV/releases/tag/v1.0)
 
 **Requirements:** Windows Media Center, a running WMC IPTV server, and matching M3U and HDHRProxyIPTV mapping files.
 
