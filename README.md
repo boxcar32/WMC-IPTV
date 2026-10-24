@@ -28,7 +28,7 @@ The release includes **WMC IPTV Setup.exe**, the **v1.1 source package**, and re
 
 The WMC IPTV Universal Client provides an experience similar to an Xbox 360 Windows Media Center Extender, but with an important difference.
 
-An Xbox 360 Extender connects to a host Windows Media Center PC. Our Universal Client runs its own full Windows Media Center installation and connects directly to remote virtual HDHomeRun tuners.
+An Xbox 360 Extender connects to a host Windows Media Center PC. My Universal Client runs its own full Windows Media Center installation and connects directly to remote virtual HDHomeRun tuners.
 
 How It Works
 
