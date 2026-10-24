@@ -24,16 +24,53 @@ The release includes **WMC IPTV Setup.exe**, the **v1.1 source package**, and re
 
 ## 💻 Download WMC IPTV – Universal Client
 
-The **WMC IPTV Universal Client v1.0** installer is now available.
+🖥️ WMC IPTV Universal Client — Similar to an Xbox 360 Extender
 
-Install Windows Media Center on a separate computer and connect to your existing WMC IPTV server.
+The WMC IPTV Universal Client provides an experience similar to an Xbox 360 Windows Media Center Extender, but with an important difference.
 
-**Features:**
-- Connects to a remote WMC IPTV server over your local network.
-- Supports 8 virtual HDHomeRun tuners.
-- Imports channels using your M3U playlist and matching server INI file.
-- Configures the Windows Firewall for IPTV video playback.
-- No Chrome Capture, Python bridge, or HDHRProxyIPTV server installation required on the client.
+An Xbox 360 Extender connects to a host Windows Media Center PC. Our Universal Client runs its own full Windows Media Center installation and connects directly to remote virtual HDHomeRun tuners.
+
+How It Works
+
+IPTV Server (i9 PC)
+
+Runs Chrome Capture for Channels (CC4C), Python IPTV Bridge, FFmpeg, and HDHRProxyIPTV.
+
+Handles IPTV capture and streaming.
+
+Provides 8 virtual HDHomeRun ClearQAM tuners.
+
+WMC Client (i7 PC)
+
+Runs its own Windows Media Center installation.
+
+Connects to the IPTV server over the local network.
+
+Uses the remote virtual tuners for Live TV.
+
+Does not require Chrome Capture, Python, or HDHRProxyIPTV installed locally.
+
+Advantages
+
+Full Windows Media Center experience on a separate computer.
+
+No Xbox 360 required.
+
+No host Windows Media Center session required.
+
+IPTV processing is handled by the server.
+
+Supports custom M3U playlists and matching HDHRProxyIPTV mapping files.
+
+Multiple WMC clients are possible, subject to server resources and tuner capacity.
+
+Tested Configuration
+
+Successfully tested on Windows 11 with an i9 IPTV server and a separate i7 Windows Media Center client.
+
+Results: 8 virtual tuners, 157 channels, and smooth Live TV playback.
+
+Windows 7 is not currently supported.
 
 ### ⬇️ Download
 
