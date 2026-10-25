@@ -78,6 +78,30 @@ Windows 7 is not currently supported.
 
 **Requirements:** Windows Media Center, a running WMC IPTV server, and matching M3U and HDHRProxyIPTV mapping files.
 
+
+### 🖥️ Windows 7 Client Download (64-bit)
+
+**WMC IPTV Client – Windows 7 SP1 x64**
+
+A dedicated Windows 7 client installer is available for computers running the original Windows Media Center.
+
+**Features**
+- Compatible with Windows 7 SP1 (64-bit)
+- Native Windows Media Center Live TV
+- Supports the 157-channel lineup (100–256)
+- Connects to an existing WMC IPTV / HDHRProxyIPTV server
+- EPG123 program-guide integration
+- Supports virtual HDHomeRun / ClearQAM tuners
+- Native WMC recording and remote-control support
+
+**Requirements:** Windows 7 SP1 x64, Windows Media Center, EPG123, HDHomeRun drivers, and access to an existing WMC IPTV server.
+
+**Download:** Windows 7 Client Installer *(link to be added)*
+
+**Important:** This is a client-only installer. It does not install the IPTV streaming server, CC4C, or the universal IPTV bridge.
+
+**Startup tip:** After restarting the computer, launch Windows Media Center to ensure the Windows Media Center Receiver Service (`ehRecvr`) is running.
+
 ---
 
 ## 🆕 Version 1.1
