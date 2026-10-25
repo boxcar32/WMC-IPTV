@@ -70,7 +70,7 @@ Successfully tested on Windows 11 with an i9 IPTV server and a separate i7 Windo
 
 Results: 8 virtual tuners, 157 channels, and smooth Live TV playback.
 
-Windows 7 is not currently supported.
+
 
 ### ⬇️ Download
 
