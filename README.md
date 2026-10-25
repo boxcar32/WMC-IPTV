@@ -96,7 +96,7 @@ A dedicated Windows 7 client installer is available for computers running the or
 
 **Requirements:** Windows 7 SP1 x64, Windows Media Center, EPG123, HDHomeRun drivers, and access to an existing WMC IPTV server.
 
-**Download:** Windows 7 Client Installer *(link to be added)*
+**Download:** Windows 7 Client Installer *(https://github.com/boxcar32/WMC-IPTV/releases/tag/win7-client-v1.0)*
 
 **Important:** This is a client-only installer. It does not install the IPTV streaming server, CC4C, or the universal IPTV bridge.
 
